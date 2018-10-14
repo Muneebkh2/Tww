@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Knewave|Source+Code+Pro:600');
+.theme_light{
+    background-color: whitesmoke;
+}
+.theme_white{
+    background-color: #ffffff;
+}
+.navbar-transparent{
+    background-color: none;
+    z-index: 100;
+    padding: 10px 20px;
+}
+.hero{
+    padding: 12.5rem 0;
+    /* background: url(../images/banner.jpg) no-repeat;
+    background-size: cover;
+    background-position: bottom left; */
+    background-color: #F6FBFF;
+}
+/* -- #Nav -- */
+.nav-fixed-top{
+    background-color: #ffffff;
+    box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+    height: 85px;
+    transition: all 2s ;
+}
+.nav-fixed-top > .container > .navbar-brand > img{
+    height: 85px!important;
+}
+.navbar{
+    transition: all 1s;
+}
+
+.nav-item{
+    padding: 0px 10px;
+}
+.nav-link{
+    color: #DCAE1D!important;
+    /* color: #e59e72!important; */
+    /* font-weight: 600!important; */
+    font-size: 17px;
+    padding: 0.2rem 0.1rem!important;  
+    font-family: 'Source Code Pro', monospace;
+    position: relative;
+    /* font-family: 'Knewave', cursive; */
+}
+.link{
+    position: relative;
+  }
+  
+  .nav-link:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    margin-top: 5px;
+    right: 0;
+    /* background: mediumvioletred; */
+    background: #f8aa16;
+    transition: width .2s ease;
+    -webkit-transition: width .2s ease;
+  }
+   
+  .nav-link:hover:after{
+    width: 100%;
+    left: 0;
+    /* background: lightsalmon; */
+    background: #ffe567;
+  }
+
+/* .nav-link::before{display:block;height:2px;background:blue;margin-top:20px;} */
+.navbar-brand > img{
+    height: 120px!important;
+}
+/* .nav-link:hover, .nav-link:focus, .nav-link.active {
+    color: #E7475E!important;
+    text-decoration: none;
+    border-bottom: .18rem solid  #DCAE1D; 
+  } */
+
+  .hero-heading{
+    font-family: 'Knewave', cursive;
+    font-size: 60px;
+    color: goldenrod;
+  }
+  .lead{
+    font-family: 'Source Code Pro', monospace;
+  }
+  .lead > a{
+    font-size: 15px;
+    font-family: 'Knewave', cursive;
+    color: goldenrod;
+  }
+  .lead > a:hover{
+      background: #DCAE1D;
+      color: #ffffff;
+      border-radius: 2px;
+      padding: 0rem 0.5rem;
+      text-decoration: none
+  }
+  .hero_icon_bg{
+        background: #fff;
+        box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+        border-radius: 0rem 0rem .375rem .375rem;
+        transition: all .3s ease;
+        padding: 10px 20px;
+        /* padding: 12px 5px; */
+  }
+  .hero_icon_bg > img{
+      height: 60px;
+      width: 60px;
+  }.hero_icon_color-bar{
+    height: 13px;
+    border-radius: .375rem .375rem 0rem 0rem;
+  }
+  .pd_020{
+      padding: 0px 20px;
+  }
